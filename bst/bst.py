@@ -1,3 +1,11 @@
+        
+"""
+         Avg            Worst
+Search	O(log n)	O(n)
+Insert	O(log n)	O(n)
+Delete	O(log n)	O(n)
+"""
+
 class Node:
 
     def __init__(self, val):

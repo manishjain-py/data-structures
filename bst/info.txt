@@ -1,0 +1,54 @@
+Arrays:
+
+search - O(n)
+
+insert - O(1)
+
+remove - O(n)
+
+Linked List:
+
+Same as arrays
+
+Binary Search:
+
+Arrays:
+
+search: log(n)
+
+insert: n
+
+remove: n
+
+BST: 
+
+search, insert and update - all are O(log n)  (for balanced binary tree)
+
+Binary Search tree:
+
+a binary tree in which for each node, value of all the nodes in left subtree is lesser(or equal) and value of all the nodes in right subtree are greater
+
+Try to keep the tree balanced (for the same nodes, there could be multiple arrangements of the tree - completely unbalanced towards right or left or balanced)
+
+A balanced binary tree is when for all the nodes, the difference between heights of left subtree and righ subtree is not greater than 1.
+
+
+Delete from BST:
+
+leaf: just remove the node
+
+node has one child: remove the mode and attach its child to its parent
+
+node has two children: 
+find a minimum value in the right subtree.
+replace value of the node to be removed with found minimum. Now, right subtree contains a duplicate!
+apply remove to the right subtree to remove a duplicate.
+
+
+
+
+
+
+
+
+
